@@ -44,8 +44,10 @@ template <class T, class V> void _printdebug(map <T, V> v) {cerr << "[ "; for (a
 typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
 
 int main(){
-    #ifndef ONLINE_JUDGE
-	    freopen("Error.txt", "w", stderr);
-    #endif
+#ifndef ONLLINE_JUDGE
+    freopen("input.txt" , "r" , stdin);
+    freopen("output.txt" , "w" , stdout);
+    freopen("Error.txt" , "w" , stderr);
+#endif
 
 }
