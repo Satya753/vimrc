@@ -5,4 +5,7 @@ autocmd bufnewfile *.cpp exe "1," . 10 . "g/Date  :-.*/s//Date  :- " .strftime("
 
 map <F9> :!g++ -g % -o %:r && ./%:r <CR>
 map <F5> :!g++ -g % -o %:r <CR>
+nnoremap <F4> :tabp<CR>
+nnoremap <F3> :tabn<CR>
+
 
